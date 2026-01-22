@@ -38,11 +38,8 @@ Some code may be incomplete or exploratory by design.
 The following resources are used as references and learning material:
 
 - *Python Documentation* — https://docs.python.org/3/
-- *Fluent Python* by Luciano Ramalho
-- *Effective Python* by Brett Slatkin
-- *Clean Code* by Robert C. Martin
-- *Object-Oriented Programming in Python* — Real Python  
-  https://realpython.com/python3-object-oriented-programming/
+- *Python Harvard CS50 (Dr. David J. Malan)* - https://www.youtube.com/watch?v=nLRL_NcnK-4
+- *Object-Oriented Programming in Python* — https://www.youtube.com/watch?v=Ej_02ICOIgs
 - *Design Patterns in Python* — Refactoring Guru  
   https://refactoring.guru/design-patterns/python
 
