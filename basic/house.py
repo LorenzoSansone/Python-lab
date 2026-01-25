@@ -34,7 +34,7 @@ else:
 """
 
 #MATCH 
-
+"""
 name = input("What's your name? ")
 
 match name:
@@ -46,4 +46,18 @@ match name:
         print("Gryffindor")
     case "Draco":
         print("Slytherin")
-        
+    case _: #In case the previous cases fail
+        print("Who?")
+
+"""
+#MATCH more efficient
+name = input("What's your name? ")
+
+match name:
+    case "Harry" | "Hermione" | "Ron": #more short method
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _: #In case the previous cases fail
+        print("Who?")
+
