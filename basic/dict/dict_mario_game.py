@@ -7,8 +7,10 @@ def print_column(height):
     print("#\n" * height, end = "")
 
 def print_row(width):
-    print("?" * width, end = "")
+    print("#" * width, end = "")
 
+#BASE function square
+"""
 def print_square(size):
 
     #For each row in square
@@ -20,5 +22,14 @@ def print_square(size):
             #Print brick
             print("#", end = "")
         print()
+"""
+
+#COMPACT function square
+def print_square(size):
+
+    #For each row in square
+    for i in range(size):
+        print("#" * size)
+
 
 main()
