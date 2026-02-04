@@ -2,7 +2,6 @@ import pytest
 from calculator import square
 
 
-
 #run "pytest test_calculator_pytest" instead of "python test_calculator_pytest"
 
 #BASE version: run all the test at the same time
@@ -28,6 +27,10 @@ def test_negative():
 def test_zero():
     assert square(0) == 0
 
+
+#TEST: pytest.raises(TypeError) -> #Assert that a code block/function call raises an exception type, or one of its subclasses.
+#TypeError is the type of expection that I expect
+#the function raises allow to express that I expect an expection to be raised
 def test_str():
     with pytest.raises(TypeError):
-        square("cat")
+        square("cat") #Whenever I call square("cat"), I expect the TypeError to be raised
