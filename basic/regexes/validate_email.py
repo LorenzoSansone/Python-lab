@@ -94,6 +94,7 @@ else:
 """
 
 #SIXTH version: regex
+"""
 email = input("What's your email? ").strip()
 
 #Pattern ^\w+@(\w+\.)?\w+\.edu$ means:
@@ -116,6 +117,4 @@ if re.search(r"^\w+@(\w+\.)?\w+\.edu$", email, flags = re.IGNORECASE):
     print("Valid")
 else:
     print("Invalid")
-
-
-
+"""
