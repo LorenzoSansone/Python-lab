@@ -118,3 +118,7 @@ if re.search(r"^\w+@(\w+\.)?\w+\.edu$", email, flags = re.IGNORECASE):
 else:
     print("Invalid")
 """
+
+#SIMILAR FUNCTIONS:
+#re.match -> is used to check if a given pattern matches the BEGINNING of a string
+#re.fullmatch ->  returns a match object if and only if the ENTIRE string matches the pattern.
