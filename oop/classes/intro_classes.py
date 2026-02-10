@@ -135,7 +135,7 @@ def get_student():
 
 
 #If we have instance variable called "name" or "house", we can't have functions with the same name (so in this example we change the name of the instance variable)
-
+"""
 class Student: 
     def __init__(self, name, house): #we can make optional some input argument    
         self.name = name
@@ -181,6 +181,31 @@ def get_student():
     name = input("Name: ")
     house = input("House:")
     return Student(name, house) 
+"""
+
+#SEVENTH VERSION: clean the code to create the student object
+
+class Student: 
+    def __init__(self, name, house): #we can make optional some input argument    
+        self.name = name
+        self.house = house #in this line the setter for house will be called and the input checked
+        #In this line we don't use _house otherwise the setter isn't called
+    
+    #Perzonalize the method for printing
+    def __str__(self):
+        return f"{self.name} from {self.house}"
+
+    #We created this class method to move the function "get_student" inside the class Student (the function is related to the class)
+    @classmethod
+    def get(cls):
+        name = input("Name: ")
+        house = input("House: ")
+        return cls(name, house) #return a new student object
+
+def main():
+    student  = Student.get()
+    #student.house = "Number Four" #try to change the variable but it will fail due to the check in the setter
+    print(student)
 
 if __name__ == "__main__":
     main()
