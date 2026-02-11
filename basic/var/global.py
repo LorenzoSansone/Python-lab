@@ -11,7 +11,7 @@
 balance = 0
 
 def main():
-    print("Balance:", balance) #we can read the global variable without "global" keyword
+    print("Balance:", balance) #we can read the global variable without "global" keyword in the function main
     deposit(100)
     withdraw(50)
     print("Balance:", balance)
