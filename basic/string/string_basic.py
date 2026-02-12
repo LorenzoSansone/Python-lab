@@ -19,4 +19,9 @@ name = name.strip().title()
 
 print(f"hello, {name}", end = "")
 
+#NOTE:
+"""
+a = "str"
+a[1] = "s" #string is an IMMUTABLE object so we can't perform this operation
+"""
 
