@@ -7,6 +7,7 @@ import random
 # 3) Memory is allocated only once
 
 #Define a class with a CLASS VARIABLES
+"""
 class Hat:
     houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"] #CLASS VARIABLES are shared among the objects
 
@@ -33,3 +34,26 @@ hat2 = Hat()
 
 #Print the class variable
 print(hat2.houses)
+"""
+
+#OTHER EXPERIMENT with class attribute
+class A:
+    class_attr = 10
+    
+    def __init__(self,par):
+        self.x = par
+
+    def inc(self):
+        self.x += A.class_attr
+
+    def __str__(self):
+        return 'A('+str(self.x)+')'
+
+print(A.class_attr)
+a=A(10)
+a.inc()
+print(a.x)
+print(a.class_attr)
+A.class_attr=30
+print(a.class_attr)
+
