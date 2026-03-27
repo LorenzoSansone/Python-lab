@@ -42,7 +42,7 @@ Some code may be exploratory, experimental, or intentionally simple.
 The following resources are used as references and learning material:
 
 - *Python Documentation* — https://docs.python.org/3/
-- *Python Harvard CS50 (Dr. David J. Malan)* - https://www.youtube.com/watch?v=nLRL_NcnK-4
+- *Python Harvard CS50 (Dr. David J. Malan)* — https://www.youtube.com/watch?v=nLRL_NcnK-4
 - *Object-Oriented Programming in Python* — https://www.youtube.com/watch?v=Ej_02ICOIgs
 - *Design Patterns in Python* — https://refactoring.guru/design-patterns/python
 
