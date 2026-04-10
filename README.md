@@ -28,11 +28,6 @@ The main goals of this repository are:
 This repository is meant to be both a **reference** and a **playground**:
 a place where existing knowledge is organized, and new ideas are explored.
 
-## 🚧 Work in Progress
-
-The structure and content may change as concepts evolve or new topics are added.
-Some code may be exploratory, experimental, or intentionally simple.
-
 ## 🛠️ Tech Stack
 
 - Python 🐍
